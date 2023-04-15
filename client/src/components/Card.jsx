@@ -8,7 +8,7 @@ export default function Card({ id, name, genres, rating, image }) {
         <CardImage src={image} alt={name} />
         <CardDetails>
           <CardTitle>{name}</CardTitle>
-          <CardGenre>Géneross: {genres}</CardGenre>
+          <CardGenre>Géneros: {genres}</CardGenre>
           <CardRating>Rating: {rating}</CardRating>
         </CardDetails>
       </div>
