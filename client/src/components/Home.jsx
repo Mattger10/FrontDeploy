@@ -133,7 +133,7 @@ export default function Home() {
             </ContainerSyO>
             
             <SearchBar />
-            {allVideogames && (
+           
             <Paginado
               videogamesPerPage={videogamesPerPage}
               allVideogames={allVideogames.length}
@@ -155,9 +155,7 @@ export default function Home() {
               })}
             </VideogamesContainer>
           </div>
-        ) : (
-          <Loading />
-        )}
+       
       </Container2>
      
     </Container>
