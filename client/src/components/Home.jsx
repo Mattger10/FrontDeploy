@@ -38,7 +38,7 @@ export default function Home() {
   };
 
   const [loading, setLoading] = useState(true);
-  if (allVideogames.length > 0 && !loading) {
+  if (allVideogames.length > 0 && loading) {
     setLoading(false);
   }
 
